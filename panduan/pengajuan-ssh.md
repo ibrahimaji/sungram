@@ -26,7 +26,7 @@ Berikut tampilan usulan SHS dalam aplikasi Reksa Harga :
 Untuk pengisian pada *form* tersebut, dapat diisi dengan acuan sebagai berikut :
 1. Kode Rekening Barang
 
-    Kode rekening barang dapat disesuaikan dengan jenis barang/jasa atau dapat diunduh [disini](/assets/ssh/Data%20Rekening%20Aset.xlsxData%20Rekening%20Aset.xlsx).
+    Kode rekening barang dapat disesuaikan dengan jenis barang/jasa atau dapat diunduh [disini](../assets/ssh/data-rekening-aset.xlsx).
 
 2. Kode Rekening Belanja
 

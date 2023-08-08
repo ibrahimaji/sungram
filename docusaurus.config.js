@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Handbook Perencanaan Dishub Kab. Pasuruan',
   tagline: 'Build a culture of transparency & documentation, organically',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://perencanaan-dishubkabpas.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
