@@ -45,9 +45,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'demo',
-        path: 'demo',
-        routeBasePath: 'demo',
+        id: 'panduan',
+        path: 'panduan',
+        routeBasePath: 'panduan',
         sidebarPath: require.resolve('./sidebarsDemo.js'),
         // ... other options
       },
@@ -71,10 +71,10 @@ const config = {
             label: 'Pengantar',
           },
           {
-            to: '/demo/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
+            to: '/panduan/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
             position: 'left',
             label: 'Panduan',
-            activeBaseRegex: `/demo/`,
+            activeBaseRegex: `/panduan/`,
           },/*
           {
             to: '/blog',
