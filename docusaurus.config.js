@@ -57,6 +57,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content: 'Website masih dalam pengembangan. Segala bentuk masukan dapat dikomunikasikan dengan Tim Sungram Dishub Kab. Pasuruan',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: false,
+        },
       navbar: {
         title: 'Beranda',
         logo: {
