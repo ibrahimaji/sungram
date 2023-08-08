@@ -1,0 +1,9 @@
+nama_barang;spesifikasi;fid_satuan;harga_dasar;inflasi;tax;profit;id_rek_aset;tkdn;pdn
+semen;kec wasile;59;90000;1;0;0;;;
+;;;;;;;;;
+*HAPUS BAGIAN INI APABILA AKAN MENGUNGGAH FILE;;;;;;;;;
+*PERHATIAN*;;;;;;;;;
+1. Untuk fid_satuan bisa dilihat di menu data master/satuan dan silahkan download file excel satuan;;;;;;;;;
+2. Untuk nilai kolom inflasi, tax, profit dan pdn bisa diisi 0 atau 1. (0=Tidak) (1=Ya);;;;;;;;;
+3. untuk id_rek_aset bisa dilihat di menu data master rekening aset sub menu aku dan silahkan download file excel rekening aset;;;;;;;;;
+4. Untuk nilai kolom tkdn bisa diisi angka atau dikosongkan;;;;;;;;;
