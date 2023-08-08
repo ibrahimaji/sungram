@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Handbook Perencanaan Dishub Kab. Pasuruan',
+  tagline: 'Build a culture of transparency & documentation, organically',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/dishub.ico',
+  organizationName: 'ibrahimaji', // Usually your GitHub org/user name.
+  projectName: 'sungram', // Usually your repo name.
 
   presets: [
     [
@@ -58,38 +58,38 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Beranda',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-dishub.svg',
         },
         items: [
           {
             type: 'doc',
             position: 'left',
             docId: 'intro',
-            label: 'Docs',
+            label: 'Pengantar',
           },
           {
             to: '/demo/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
             position: 'left',
-            label: 'Demo',
+            label: 'Panduan',
             activeBaseRegex: `/demo/`,
-          },
+          },/*
           {
             to: '/blog',
             label: 'Blog',
             position: 'left'
-          },
+          },*/
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ibrahimaji',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'dark',/*
         links: [
           {
             title: 'Docs',
@@ -130,8 +130,8 @@ const config = {
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        ],*/
+        copyright: `Copyright © ${new Date().getFullYear()} Sub Bagian Penyusunan Program dan Pelaporan Dinas Perhubungan Kabupaten Pasuruan`,
       },
       prism: {
         theme: lightCodeTheme,

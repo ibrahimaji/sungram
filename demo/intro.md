@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Demo Docs
+# Pengantar Panduan
 
-Here's an example document.
+Kumpulan Panduan Teknis Perencanaan.
