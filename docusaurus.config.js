@@ -43,6 +43,12 @@ const config = {
 
   plugins: [
     [
+      'docusaurus2-dotenv',
+      {
+        systemvars: true
+      }
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'panduan',
@@ -63,7 +69,7 @@ const config = {
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
-        },
+      },
       navbar: {
         title: 'Beranda',
         logo: {
