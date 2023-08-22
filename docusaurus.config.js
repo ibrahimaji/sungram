@@ -43,12 +43,6 @@ const config = {
 
   plugins: [
     [
-      'docusaurus2-dotenv',
-      {
-        systemvars: true
-      }
-    ],
-    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'panduan',
